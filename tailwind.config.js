@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./src/**/*.{html,js}'],
+  content: ['./src/index.html'],
   theme: {
     colors: {
       primary: '#111827',
@@ -14,7 +14,7 @@ module.exports = {
       orange: '#F59E0B',
     },
     fontFamily: {
-      sans: ['Graphik', 'Arial', 'sans-serif'],
+      Graphik: ['Graphik', 'Arial', 'sans-serif'],
     },
     screens: {
       md: '425px',
@@ -26,7 +26,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'green-gradient': 'linear-gradient(180deg, #CBD623 0%, #41701E 100%)',
-        star: 'url(../images/icons/star.svg)',
+        star: 'url(../assets/img/icons/star.svg)',
       },
       backgroundPosition: {
         'star-position': 'left 4px top 3px',

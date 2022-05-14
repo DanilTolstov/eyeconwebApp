@@ -2,12 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
     @font-face {
         font-family: 'Graphik';
         src: local('Graphik Regular'), local('Graphik-Regular'),
-        url('src/fonts/Graphik-Regular.woff2') format('woff2'),
-        url('src/fonts/Graphik-Regular.woff') format('woff');
+        url('../assets/fonts/Graphik-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Graphik-Regular.woff') format('woff');
         font-weight: 400;
         font-style: normal;
     }
@@ -15,8 +14,8 @@
     @font-face {
         font-family: 'Graphik';
         src: local('Graphik Medium'), local('Graphik-Medium'),
-        url('src/fonts/Graphik-Medium.woff2') format('woff2'),
-        url('src/fonts/Graphik-Medium.woff') format('woff');
+        url('../assets/fonts/Graphik-Medium.woff2') format('woff2'),
+        url('../assets/fonts/Graphik-Medium.woff') format('woff');
         font-weight: 500;
         font-style: normal;
     }
@@ -24,8 +23,8 @@
     @font-face {
         font-family: 'Graphik';
         src: local('Graphik Semibold'), local('Graphik-Semibold'),
-        url('src/fonts/Graphik-Semibold.woff2') format('woff2'),
-        url('src/fonts/Graphik-Semibold.woff') format('woff');
+        url('../assets/fonts/Graphik-Semibold.woff2') format('woff2'),
+        url('../assets/fonts/Graphik-Semibold.woff') format('woff');
         font-weight: 600;
         font-style: normal;
     }
@@ -33,9 +32,9 @@
     @font-face {
         font-family: 'Graphik';
         src: local('Graphik Bold'), local('Graphik-Bold'),
-        url('src/fonts/Graphik-Bold.woff2') format('woff2'),
-        url('src/fonts/Graphik-Bold.woff') format('woff');
+        url('../assets/fonts/Graphik-Bold.woff2') format('woff2'),
+        url('../assets/fonts/Graphik-Bold.woff') format('woff');
         font-weight: 700;
         font-style: normal;
     }
-}
+
